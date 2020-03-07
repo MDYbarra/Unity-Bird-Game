@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 705
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MinSize: {x: 681, y: 472}
+  m_MaxSize: {x: 14002, y: 14022}
   vertical: 0
-  controlID: 217
+  controlID: 1934
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,10 +127,10 @@ MonoBehaviour:
     y: 0
     width: 1003
     height: 705
-  m_MinSize: {x: 406, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+  m_MinSize: {x: 404, y: 472}
+  m_MaxSize: {x: 10000, y: 14022}
   vertical: 1
-  controlID: 218
+  controlID: 1893
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 0
     width: 1003
     height: 433
-  m_MinSize: {x: 406, y: 222}
-  m_MaxSize: {x: 8006, y: 4022}
+  m_MinSize: {x: 404, y: 222}
+  m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 190
+  controlID: 1846
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,7 +213,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 78fbffff
+      m_ExpandedIDs: 6ef9ffff78fbffff62320000c8320000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -327,9 +327,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -188.78351, y: -59.172424, z: -201.54819}
+    m_Target: {x: -33.82794, y: 45.4, z: -229.8}
     speed: 2
-    m_Value: {x: -188.78351, y: -59.172424, z: -201.54819}
+    m_Value: {x: -33.82794, y: 45.4, z: -229.8}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -358,13 +358,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.033489082, y: 0.9105938, z: -0.4050091, w: 0.07529516}
+    m_Target: {x: 0.0015509421, y: 0.8561618, z: -0.0025683069, w: 0.5167064}
     speed: 2
-    m_Value: {x: 0.03348901, y: 0.91059184, z: -0.40500823, w: 0.075294994}
+    m_Value: {x: 0.0015509364, y: 0.8561586, z: -0.0025682973, w: 0.5167045}
   m_Size:
-    m_Target: 936.4004
+    m_Target: 58.916786
     speed: 2
-    m_Value: 936.4004
+    m_Value: 58.916786
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/michaelybarra/Desktop/CS 426/cs426_Thornburgh_Zeke_Asgn2/Group14
+  m_LastProjectPath: /Users/michaelybarra/Desktop/CS 426/HW5
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -522,8 +522,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 4cefffff
+    m_LastClickedInstanceID: -4276
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
