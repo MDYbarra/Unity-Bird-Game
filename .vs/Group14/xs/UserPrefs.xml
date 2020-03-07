@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{42C90848-14CD-6B51-73DA-257C90CF7D5A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Sounds/Score.cs">
+    <Files>
+      <File FileName="Assets/Target.cs" Line="32" Column="1" />
+      <File FileName="Assets/Score.cs" Line="65" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="35c52699-2c43-46f8-91a0-6138851983e3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

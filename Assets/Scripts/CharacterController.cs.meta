@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b7f75069cad58487d8a6c65d8a3d092e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bullet: {instanceID: 0}
+  - poo: {fileID: 9191690597921504705, guid: 46946a684f1302c45b9499c45d31192c, type: 3}
+  - drop: {instanceID: 0}
+  - fpsCam: {instanceID: 0}
+  - wing1: {instanceID: 0}
+  - wing2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
