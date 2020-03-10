@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bounds
     - Bullet
     - CharacterController
     - QuitGame
@@ -161,6 +162,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11622}
     - Class: 114
       Script: {instanceID: 11644}
+    - Class: 114
+      Script: {instanceID: 140732}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -878,6 +881,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Lights
+  - hash:
+      serializedVersion: 2
+      Hash: 2e01607a7c7f7e60e691d19c441fa491
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bounds
   platform: 2
   scenePathNames:
   - Assets/Scenes/offlineScene.unity
