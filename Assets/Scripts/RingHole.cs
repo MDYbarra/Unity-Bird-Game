@@ -6,7 +6,7 @@ public class RingHole : MonoBehaviour
 {
     // public Score scoreManager;
     public AudioSource tada;
-    public GameObject ring, ringTarget,daylight,nightlight;
+    public GameObject ring, ringTarget,daylight,nightlight, t_lights;
 
 
     
@@ -26,6 +26,7 @@ public class RingHole : MonoBehaviour
         {
             daylight.SetActive(true);
             nightlight.SetActive(false);
+            t_lights.SetActive(false);
             ringTarget.SetActive(false);
             ring.SetActive(false);
             tada.Play();
