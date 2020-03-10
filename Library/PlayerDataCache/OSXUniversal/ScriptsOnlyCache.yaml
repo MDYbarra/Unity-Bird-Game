@@ -542,7 +542,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: d7b3085f2ba3190abd149ecd9e93528c
+      Hash: 9961311038a9d9f88b1425b304370e54
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RingHole
@@ -870,6 +870,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Lights
   platform: 2
   scenePathNames:
   - Assets/Scenes/offlineScene.unity

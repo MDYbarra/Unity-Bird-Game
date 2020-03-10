@@ -6,27 +6,30 @@ public class RingHole : MonoBehaviour
 {
     // public Score scoreManager;
     public AudioSource tada;
-    public GameObject ring, ringTarget;
+    public GameObject ring, ringTarget,daylight,nightlight;
+
+
+    
 
     private void OnCollisionEnter(Collision collision)
     {
         //scoreManager.AddPoint();
+
         Debug.Log("Collision Detected");
         var hit = collision.gameObject;
-        //var hitObject = hit.GetComponent<Bullet>();
-        //if (hitObject != null)
-        //{
-        //    pop.Play();
-        //    Destroy(gameObject);// make sure hit object is bullet, if so destroy this target.
-        //    return;
 
-        //}
-        var hitObject2 = hit.GetComponent<CharacterController>();
-        if (hitObject2 != null)
+
+
+
+        var hitObject = hit.GetComponent<CharacterController>();
+        if (hitObject != null)
         {
+            daylight.SetActive(true);
+            nightlight.SetActive(false);
             ringTarget.SetActive(false);
             ring.SetActive(false);
             tada.Play();
+            
             Destroy(gameObject);// make sure hit object is bullet, if so destroy this target.
             return;
         }

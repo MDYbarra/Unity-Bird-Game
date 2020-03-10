@@ -132,6 +132,7 @@ public class CharacterController : NetworkBehaviour
         // flying this makes the bird flap its wings
         if (Input.GetKeyDown(KeyCode.O))
         {
+
             rb.AddForce(t.up * force / 2);
             //flap wings
             wing1.SetActive(false);
