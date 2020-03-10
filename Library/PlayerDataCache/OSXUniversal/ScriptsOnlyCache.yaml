@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Bullet
     - CharacterController
     - QuitGame
+    - RingHole
     - Score
     - ScoreText
     - Target
@@ -68,11 +69,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10316}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11226}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11622}
     - Class: 114
-      Script: {instanceID: 11642}
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -143,21 +144,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10316}
     - Class: 114
-      Script: {instanceID: 10608}
+      Script: {instanceID: 10368}
     - Class: 114
-      Script: {instanceID: 10818}
+      Script: {instanceID: 10610}
     - Class: 114
-      Script: {instanceID: 10840}
+      Script: {instanceID: 10820}
     - Class: 114
-      Script: {instanceID: 11128}
+      Script: {instanceID: 10842}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 11130}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11642}
+      Script: {instanceID: 11622}
+    - Class: 114
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -220,9 +223,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10316}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11226}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11622}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -289,21 +292,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10316}
     - Class: 114
-      Script: {instanceID: 10608}
+      Script: {instanceID: 10610}
     - Class: 114
-      Script: {instanceID: 10818}
+      Script: {instanceID: 10820}
     - Class: 114
-      Script: {instanceID: 11128}
+      Script: {instanceID: 11130}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11226}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11622}
     - Class: 114
-      Script: {instanceID: 11642}
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -537,6 +540,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d7b3085f2ba3190abd149ecd9e93528c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RingHole
   - hash:
       serializedVersion: 2
       Hash: 8dc90e648ac06f43bdd31ac9fa8f4579

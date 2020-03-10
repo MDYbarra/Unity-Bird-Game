@@ -5,7 +5,7 @@ using UnityEngine;
 public class RingHole : MonoBehaviour
 {
     // public Score scoreManager;
-    public AudioSource pop;
+    public AudioSource tada;
     public GameObject ring, ringTarget;
 
     private void OnCollisionEnter(Collision collision)
@@ -26,7 +26,7 @@ public class RingHole : MonoBehaviour
         {
             ringTarget.SetActive(false);
             ring.SetActive(false);
-            pop.Play();
+            tada.Play();
             Destroy(gameObject);// make sure hit object is bullet, if so destroy this target.
             return;
         }
