@@ -163,6 +163,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
@@ -542,7 +544,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: 9961311038a9d9f88b1425b304370e54
+      Hash: 2d16da601fc59d23087da5f2795ea945
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RingHole

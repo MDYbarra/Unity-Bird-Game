@@ -137,7 +137,7 @@ public class CharacterController : NetworkBehaviour
             //flap wings
             wing1.SetActive(false);
             wing2.SetActive(true);
-            flying.Play();  // add sound when bird flaps wings
+            //flying.Play();  // add sound when bird flaps wings
 
         }
 
@@ -145,6 +145,8 @@ public class CharacterController : NetworkBehaviour
         // shoots bullets from birds mouth
         if (Input.GetKeyDown(KeyCode.K))
         {
+           // flying.Play();  // add sound when bird flaps wings
+
             CmdFire();
             // GameObject newBullet = GameObject.Instantiate(bullet, cannon.transform.position, cannon.transform.rotation) as GameObject;
             //newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 5;
